@@ -90,7 +90,13 @@
 <div class="contact_title">Ponte en contacto...</div>
 
 <div class="contact_form_container">
-<form action="post"><input class="input_field contact_form_name" data-error="Name is required." id="contact_form_name" placeholder="Nombre completo" required="required" type="text" /> <input class="input_field contact_form_email" data-error="Valid email is required." id="contact_form_email" placeholder="Correo Electronico" required="required" type="email" /><textarea class="text_field contact_form_message" data-error="Please, write us a message." id="contact_form_message" name="message" placeholder="Mensaje" required="required"></textarea><button class="contact_send_btn trans_200" id="contact_send_btn" type="button" value="Submit">Enviar mensaje</button></form>
+<form action="Enviar.php" method="POST" >
+	<input class="input_field contact_form_name" data-error="Name is required." name="Nombre" placeholder="Nombre completo" required="required" type="text" /> 
+	<input class="input_field contact_form_email" data-error="Valid email is required." name="Email" placeholder="Correo Electronico" required="required" type="email" />
+	<input class="input_field contact_form_email" data-error="Valid email is required." name="Telefono" placeholder="Numero Telefonico" required="required" type="number" />
+	<textarea class="text_field contact_form_message" data-error="Please, write us a message." name="Mensaje" name="message" placeholder="Mensaje" required="required"></textarea>
+	<button class="contact_send_btn trans_200" id="contact_send_btn" type="submit" value="Submit">Enviar mensaje</button>
+</form>
 </div>
 </div>
 </div>

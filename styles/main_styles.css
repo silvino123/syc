@@ -920,6 +920,12 @@ section
 	background: #f8f9fb;
 	border: none;
 }
+.card2
+{
+	display: block;
+	background: #FFFFFF;
+	border: none;
+}
 .card-img-top
 {
 	border-top-left-radius: 0px;

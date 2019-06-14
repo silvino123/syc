@@ -7011,6 +7011,10 @@ body.landing-page {
   height: 470px;
   width: 100%;
 }
+.landing-page .banner-aplicaciones {
+  height: 470px;
+  width: 100%;
+}
 .landing-page .header-back.one {
   background: url('../img/landing/header_one.jpg') 50% 0 no-repeat;
 }
@@ -7019,6 +7023,10 @@ body.landing-page {
 }
 .landing-page .banner-sistemas {
   background: url('../img/landing/bannerSistemas.jpg') 50% 0 no-repeat;
+}
+
+.landing-page .banner-aplicaciones {
+  background: url('../img/landing/BannerAplicaciones.jpg') 50% 0 no-repeat;
 }
 .landing-page .carousel {
   height: 470px;

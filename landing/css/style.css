@@ -7015,6 +7015,11 @@ body.landing-page {
   height: 470px;
   width: 100%;
 }
+.landing-page .banner-consultoria {
+  height: 470px;
+  width: 100%;
+}
+
 .landing-page .header-back.one {
   background: url('../img/landing/header_one.jpg') 50% 0 no-repeat;
 }
@@ -7028,6 +7033,11 @@ body.landing-page {
 .landing-page .banner-aplicaciones {
   background: url('../img/landing/BannerAplicaciones.jpg') 50% 0 no-repeat;
 }
+
+.landing-page .banner-consultoria {
+  background: url('../img/landing/BannerConsultoria.jpg') 50% 0 no-repeat;
+}
+
 .landing-page .carousel {
   height: 470px;
 }

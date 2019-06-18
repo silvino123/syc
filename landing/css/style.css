@@ -7020,6 +7020,14 @@ body.landing-page {
   width: 100%;
 }
 
+.landing-page .banner-paginas {
+  height: 470px;
+  width: 100%;
+}
+.landing-page .banner-marketing {
+  height: 470px;
+  width: 100%;
+}
 .landing-page .header-back.one {
   background: url('../img/landing/header_one.jpg') 50% 0 no-repeat;
 }
@@ -7038,6 +7046,12 @@ body.landing-page {
   background: url('../img/landing/BannerConsultoria.jpg') 50% 0 no-repeat;
 }
 
+.landing-page .banner-paginas {
+  background: url('../img/landing/BannerPaginas.jpg') 50% 0 no-repeat;
+}
+.landing-page .banner-marketing {
+  background: url('../img/landing/BannerMarketing2.jpg') 50% 0 no-repeat;
+}
 .landing-page .carousel {
   height: 470px;
 }
@@ -7170,6 +7184,10 @@ body.landing-page {
 .landing-page .features-icon {
   color: #ffb606;
   font-size: 40px;
+}
+.landing-page .features-icon2 {
+  color: #ffb606;
+  font-size: 20px;
 }
 .landing-page .navy-section {
   margin-top: 60px;

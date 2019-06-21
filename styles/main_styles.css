@@ -1514,7 +1514,7 @@ input:last-of-type
 @media (max-width: 750px) { 
 	.course_boxes{
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 0.7fr 0.7fr;
 		justify-items: center;
 		margin-bottom: -13vw;

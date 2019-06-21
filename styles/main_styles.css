@@ -1511,3 +1511,31 @@ input:last-of-type
 {
 	margin-right: 0px;
 }
+@media (max-width: 750px) { 
+	.course_boxes{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 0.7fr 0.7fr;
+		justify-items: center;
+		margin-bottom: -13vw;
+	}
+	.course_boxes img{
+		margin: 0;
+	}
+		
+	
+ }
+ @media (max-width: 768px) { 
+	.course_boxes{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		justify-items: center;
+		margin-bottom: -13vw;
+	}
+	.course_boxes img{
+		margin: 0;
+	}
+		
+	
+ }
